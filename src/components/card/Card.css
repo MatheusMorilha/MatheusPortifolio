@@ -1,6 +1,5 @@
 .card-wrapper {
-    width: 100%;
-    max-width: 350px; 
+    width: 300px;
     background-color: #ffffff;
     border-radius: 15px; 
     overflow: hidden; 
@@ -18,7 +17,7 @@
 
 .card-img {
     width: 100%;
-    height: 200px;
+    height: 150px;
     overflow: hidden;
 }
 
@@ -55,7 +54,6 @@
     line-height: 1.5;
     margin: 0;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -63,7 +61,7 @@
 .card-text button {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #1a1a1a;
+    background-color: hsl(0, 0%, 10%);
     color: #ffffff;
     border: none;
     border-radius: 8px;
@@ -76,4 +74,17 @@
 
 .card-text button:hover {
     background-color: #444;
+}
+
+@media (max-width: 1024px) {
+
+    .card-img {
+        width: 100%;
+        height: 70px;
+        overflow: hidden;
+    }
+
+    .card-text button {
+        font-size: 8px;
+    }
 }

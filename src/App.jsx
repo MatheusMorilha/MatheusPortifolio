@@ -36,7 +36,9 @@ export default function App() {
         <section id='project-link' className='project-section'>
           <div className='project-text'>
             <h1>Projetos</h1>
-            <p>Em construção...</p>
+            <p>Nesta seção, apresento alguns dos projetos que desenvolvi ao longo da minha trajetória. Cada 
+              um deles representa um desafio superado e uma oportunidade de aprendizado, onde pude aplicar 
+              conhecimentos técnicos e explorar novas tecnologias na prática.</p>
           </div>
           <div className='card-container'>
             <Card
@@ -57,8 +59,7 @@ export default function App() {
             <Card
             image={anexar}
             title='Projeto'
-            description='Descrição do projeto'/>
-            
+            description='Descrição do projeto'/>          
           </div>
         </section>
       </main>

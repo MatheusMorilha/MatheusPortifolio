@@ -8,7 +8,7 @@
 
 section {
     min-height: calc(100vh - 51px);
-    padding: 3rem 10%;
+    padding: 3rem; 
     display: flex;
     width: 100%;
 }
@@ -47,6 +47,7 @@ section {
 }
 
 .project-section {
+    scroll-margin-top: 51px;
     background-color: #f9f9f9;
     flex-direction: column;
     align-items: center;
@@ -62,13 +63,41 @@ section {
 .card-container {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
-    padding: 3rem;
+    padding: 2rem;
+    
 }
 
-.card {
-    width: 200px;
-    height: 150px;
-    background-color: red;
-    border-radius: 3%;
+@media (max-width: 1024px) {
+    .hero-section {
+        flex-direction: column; 
+        gap: 50px; 
+        padding: 2rem 5%; 
+    }
+
+    .hero-text {
+        width: 100%; 
+        text-align: center; 
+    }
+
+    .hero-text h1{
+        font-size: 20px;
+    }
+
+    .hero-text p{
+        font-size: 13px;
+    }
+
+    .hero-links {
+        justify-content: center; 
+    }
+
+    .hero-img img {
+        max-width: 280px;
+    }
 }
+
+
