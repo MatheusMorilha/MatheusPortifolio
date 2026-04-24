@@ -1,7 +1,7 @@
 import './Card.css'
 export default function Card({image, title, description}) {
     return (
-        <div className="card-wrapper">
+        <div className="card">
             <div className="card-img">
                 <img src={image} alt="" />
             </div>
