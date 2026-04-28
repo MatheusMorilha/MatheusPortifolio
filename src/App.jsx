@@ -2,6 +2,7 @@ import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 import Card from './components/card/Card'
 import Contact from './components/contact/Contact';
+import Timeline from './components/timeline/Timeline';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
@@ -72,6 +73,30 @@ export default function App() {
             image={anexar}
             title='Projeto'
             description='Descrição do projeto'/>         
+          </div>
+        </section>
+        <section>
+          <div className='experiencie-section'>
+            <h1>Resumo Profissional</h1>
+            <div className='timeline-container'>
+
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className='timeline-container'>
+            <Timeline
+            ano={'07/2023 - 12/2024'}
+            descricao={'uma breve descricao da minha expericneica profissional na cvale balbalblalblasdjajsd asodjaosfjao fjasfoaj '}
+            emprego={'C.Vale - Cooperativa Agroindustrial'}/>
+            <Timeline
+            ano={'07/2023 - 12/2024'}
+            emprego={'C.Vale - Cooperativa Agroindustrial'}
+            descricao={'uma breve descricao da minha expericneica profissional na cvale balbalblalblasdjajsd asodjaosfjao fjasfoaj '}/>
+            <Timeline
+            ano={'07/2023 - 12/2024'}
+            emprego={'C.Vale - Cooperativa Agroindustrial'}
+            descricao={'uma breve descricao da minha expericneica profissional na cvale balbalblalblasdjajsd asodjaosfjao fjasfoaj '}/>
           </div>
         </section>
       </main>

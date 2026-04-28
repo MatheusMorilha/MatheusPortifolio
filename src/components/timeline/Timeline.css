@@ -1,0 +1,55 @@
+.timeline {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+
+.timeline h3 {
+    font-size: 15px
+}
+
+.jobecargo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.jobecargo h3{
+    font-size: 15px;
+}
+
+.jobecargo p {
+    font-size: 13px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(212, 212, 212, 0.187);
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    padding: 0.5rem;
+}
+
+.lineDot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.line {
+    width: 2px;
+    height: 140px;
+    background-color: black;
+}

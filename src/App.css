@@ -1,19 +1,18 @@
 .container-principal {
     background-color: white;
-    min-height: calc(100vh - 51px);
     display: flex;
     flex-direction: column;
     margin-top: 51px;
 }
 
-section {
-    min-height: calc(100vh - 51px);
-    padding: 2rem; 
+section { 
+    padding: 2rem;
     display: flex;
     width: 100%;
 }
 
 .hero-section {
+    min-height: calc(100vh - 51px);
     align-items: center;
     justify-content: center;
     gap: 150px;
@@ -26,6 +25,10 @@ section {
     gap: 30px;
 }
 
+.hero-text p {
+    text-align: justify;        
+}
+
 .hero-img img {
     width: 100%;
     max-width: 380px;
@@ -36,7 +39,7 @@ section {
 }
 
 .hero-img img:hover {
-    box-shadow: 0 0 15px #B4D5FE;
+    box-shadow: 0 0 50px #B4D5FE;
 }
 
 .hero-links {
@@ -47,10 +50,12 @@ section {
 }
 
 .project-section {
-    scroll-margin-top: 51px;
+    height: auto;
+    padding: 4rem;
     background-color: #f9f9f9;
     flex-direction: column;
     align-items: center;
+    scroll-margin-top: 51px; 
 }
 
 .project-text {
@@ -58,6 +63,10 @@ section {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.project-text p {
+    text-align: justify;
 }
 
 .card-container {
@@ -76,7 +85,11 @@ section {
     height: 8px;
 }
 
-
+.timeline-container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
 
 @media (max-width: 1024px) {
 
@@ -105,6 +118,18 @@ section {
 
     .hero-img img {
         max-width: 280px;
+    }
+
+    .project-section {
+        padding: 2rem 1rem 6rem 1rem;
+    }        
+
+    .project-text h1{
+        font-size: 25px;
+    }
+
+    .project-text p{
+        font-size: 13px;
     }
 }
 
