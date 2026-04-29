@@ -1,21 +1,19 @@
 import './Timeline.css'
 
-export default function Timeline({ano, descricao, emprego, empresa}) {
-    return (    
-        <div className="timeline">
-            <h3 className='timeline-year'>{ano}</h3>
-            <div className="lineDot">
-                <div className='dot'></div>
-                <div className='line'></div>
-            </div>
-            <div className='jobecargo'>
-                <h3>{emprego}</h3>
-                <p>{empresa}</p>
-                <div className='informacoes'>
-                <p>{descricao}</p>
-            </div>
+export default function Timeline({ ano, emprego, empresa }) {
+    return (
+        <div className="timeline-item">
+            <div className='timeline-year'>{ano}</div>
+            
+            <div className="timeline-divider">
+                <div className='timeline-dot'></div>
+                <div className='timeline-line'></div>
             </div>
             
+            <div className='timeline-content'>
+                <h3 className='timeline-job'>{emprego}</h3>
+                <p className='timeline-company'>{empresa}</p>
+            </div>
         </div>
     )
 }

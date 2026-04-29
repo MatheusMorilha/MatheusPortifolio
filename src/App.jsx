@@ -82,25 +82,21 @@ export default function App() {
               ano={'01/2024 - atual'}
               emprego={'Analista Funcional SAP'}
               empresa={'C.Vale - Cooperativa Agroindustrial'}
-              descricao={'N/A'}
             />
             <Timeline
               ano={'02/2022 - 01/2023'}
               emprego={'Assistente de Vendas'}
-              empresa={'C.Vale - Cooperativa Agroindustrial'}
-              descricao={'N/A'}
+              empresa={'MCL Peças agrícolas ltda'}
             />
             <Timeline
               ano={'05/2021 - 01/2022'}
               emprego={'Aprendiz'}
-              empresa={'C.Vale - Cooperativa Agroindustrial'}
-              descricao={'N/A'}
+              empresa={'MCL Peças agrícolas ltda'}
             />
             <Timeline
               ano={'10/2018 - 01/2021'}
               emprego={'Aprendiz'}
               empresa={'C.Vale - Cooperativa Agroindustrial'}
-              descricao={'N/A'}
             />
           </div>
 
