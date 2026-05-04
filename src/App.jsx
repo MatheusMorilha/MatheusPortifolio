@@ -10,8 +10,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import './App.css'
 import fotoMatheus from './img/foto_matheus.png';
-import anexar from './img/anexar.jpg'
-import teste from './img/teste.png'
+import anexar from './img/anexo.jpg'
 export default function App() {
   return (
     <>
@@ -50,7 +49,7 @@ export default function App() {
               description='Desenvolvido uma pagina em react para portifolio loasfoasfmaos oafoasfoa oafksofka' />
 
             <Card
-              image={teste}
+              image={anexar}
               title='Projeto'
               description='Informe uma breve descrição do projeto realizado' />
 
@@ -65,7 +64,7 @@ export default function App() {
               description='Descrição do projeto' />
 
             <Card
-              image={fotoMatheus}
+              image={anexar}
               title='Projeto'
               description='Descrição do projeto' />
 
@@ -75,31 +74,8 @@ export default function App() {
               description='Descrição do projeto' />
           </div>
         </section>
-        <section id='historic-section' className='historic-section'>
-          <h1>Experiências</h1>
-          <div className='timeline-container'>
-            <Timeline
-              ano={'01/2024 - atual'}
-              emprego={'Analista Funcional SAP'}
-              empresa={'C.Vale - Cooperativa Agroindustrial'}
-            />
-            <Timeline
-              ano={'02/2022 - 01/2023'}
-              emprego={'Assistente de Vendas'}
-              empresa={'MCL Peças agrícolas ltda'}
-            />
-            <Timeline
-              ano={'05/2021 - 01/2022'}
-              emprego={'Aprendiz'}
-              empresa={'MCL Peças agrícolas ltda'}
-            />
-            <Timeline
-              ano={'10/2018 - 01/2021'}
-              emprego={'Aprendiz'}
-              empresa={'C.Vale - Cooperativa Agroindustrial'}
-            />
-          </div>
-
+        <section id='timeline-section' className='timeline-section'>
+          <Timeline/>
         </section>
       </main>
       <Footer />
